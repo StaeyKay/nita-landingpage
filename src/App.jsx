@@ -46,7 +46,7 @@ import {
   Wind,
   X,
 } from "lucide-react";
-import { HeroImage } from "./assets";
+import { HeroImage, Logo } from "./assets";
 import { getAccraWeather } from "./services/weather";
 
 const modules = [
@@ -270,7 +270,7 @@ function App() {
           </button>
           <a href="#home" className="flex shrink-0 items-center gap-3">
             <img
-              src="/logo.jpeg"
+              src={Logo}
               alt="NITA Ghana"
               className="h-10 w-[108px] object-contain object-left"
             />
@@ -403,7 +403,7 @@ function App() {
         <div className="mb-4 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-[#dcefe2] bg-white px-5 py-3.5 shadow-sm">
           <div className="flex items-center gap-3">
             <img
-              src="/logo.jpeg"
+              src={Logo}
               alt="NITA"
               className="hidden h-10 w-[100px] object-contain object-left sm:block"
             />
@@ -1037,7 +1037,7 @@ function App() {
         <div className="mx-auto grid max-w-[1440px] gap-6 px-5 py-7 sm:grid-cols-2 lg:grid-cols-4 lg:px-9">
           <div>
             <img
-              src="/logo.jpeg"
+              src={Logo}
               alt="NITA Ghana"
               className="mb-2 h-9 w-28 object-contain object-left"
             />
